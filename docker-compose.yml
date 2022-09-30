@@ -1,9 +1,7 @@
-version: '3.9'
+version: '3.3'
 services:
-  # ...
-
   soketi:
-    container_name: 'soketi_server'
+    container_name: 'soketi'
     restart: unless-stopped
     image: 'quay.io/soketi/soketi:0.17-16-alpine'
     ports:
